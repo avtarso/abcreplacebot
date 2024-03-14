@@ -44,6 +44,6 @@ def main(message):
     replaced_message = abc_replace(message.text)
     if replaced_message != message.text:
         bot.reply_to(message, replaced_message)
-        bot.send_message(message.chat.id, "fixed")
+        # bot.send_message(message.chat.id, "fixed")
     
 bot.polling(none_stop=True)
